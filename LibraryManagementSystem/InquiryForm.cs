@@ -29,7 +29,7 @@ namespace LibraryManagementSystem
             else
             {
                 // search for the book
-                string connectionString = "Data Source=THAMARA;Initial Catalog=LibraryManagementSystem;Integrated Security=True;Trust Server Certificate=True";
+                string connectionString = "Data Source=SERVER_NAME;Initial Catalog=LibraryManagementSystem;Integrated Security=True;Trust Server Certificate=True";
                 string query = "SELECT * FROM Books WHERE Title LIKE '%" + search + "%' OR Author LIKE '%" + search + "%' OR BookID LIKE '%" + search + "%'";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {

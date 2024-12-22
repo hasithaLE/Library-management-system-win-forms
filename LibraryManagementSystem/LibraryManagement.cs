@@ -6,7 +6,7 @@ namespace LibraryManagementSystem
 {
     public class LibraryManagement
     {
-        private readonly string connectionString = "Data Source=THAMARA;Initial Catalog=LibraryManagementSystem;Integrated Security=True;Trust Server Certificate=True";
+        private readonly string connectionString = "Data Source=SERVER_NAME;Initial Catalog=LibraryManagementSystem;Integrated Security=True;Trust Server Certificate=True";
 
         // Loan Process
         public string LoanBook(int userNumber, int bookId)

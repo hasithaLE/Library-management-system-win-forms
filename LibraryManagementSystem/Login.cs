@@ -13,7 +13,7 @@ namespace LibraryManagementSystem
 {
     public partial class Login : Form
     {
-        private readonly string connectionString = "Data Source=THAMARA;Initial Catalog=LibraryManagementSystem;Integrated Security=True;Trust Server Certificate=True";
+        private readonly string connectionString = "Data Source=SERVER_NAME;Initial Catalog=LibraryManagementSystem;Integrated Security=True;Trust Server Certificate=True";
         public Login()
         {
             InitializeComponent();
